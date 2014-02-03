@@ -21,6 +21,8 @@ prompt
 
 #alias ls='ls --color=auto'
 export CLICOLOR=1
+
 alias grep='grep --colour=auto'
+export GREP_COLOR='1;37;44'
 
 alias r="rails"
