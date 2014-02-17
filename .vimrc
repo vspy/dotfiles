@@ -10,5 +10,6 @@ au BufRead,BufNewFile *.py set tabstop=4
 
 set wildignore+=*.pyc
 set wildignore+=*.class
+set wildignore+=CACHE
 
 map <Leader><Leader> :!~/.vim/tests.sh '%:p'<CR>
